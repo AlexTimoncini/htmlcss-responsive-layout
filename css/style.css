@@ -7,7 +7,69 @@ padding: 0;
 box-sizing: border-box;
 }
 
-/*--------------LAYOUT STYLE--------------*/
+body{
+    padding-top: 50px;
+    font-family: sans-serif;
+}
 
+input[type=checkbox]{
+    display: none;
+}
+
+i{
+    color: #fff;
+}
+/*--------------LAYOUT STYLE--------------*/
+.flex{
+    display: flex;
+}
+
+.flex.between{
+    justify-content: space-between;
+}
 /*--------------SITE SECTION--------------*/
 
+/*HEADER*/
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: #0084fd;
+    padding: 1rem 2.5rem;
+    align-items: center;
+    z-index: 10;
+    top: 0;
+}
+
+.nav .nav-links{
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 30%;
+    background-color: #b5ddff;
+    text-align: right;
+    display: none;
+
+}
+
+.nav-item{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+}
+
+.nav-item[href="#get-started"]{
+    color: black;
+    background-color: white;
+    border-bottom: 1px #b5ddff solid;
+    border-left: 1px #b5ddff solid;
+
+}
+
+.nav #burger-menu:checked ~ .nav-links{
+    display: flex;
+    flex-direction: column;
+}
