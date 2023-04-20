@@ -33,6 +33,10 @@ input[type=checkbox]{
     border-radius: 3rem;
 }
 
+h2{
+    font-size: 2rem;
+}
+
 /*--------------LAYOUT STYLE--------------*/
 .flex{
     display: flex;
@@ -164,7 +168,6 @@ input[type=checkbox]{
 }
 
 .strategic-planning .planning-title{
-    font-size: 2rem;
     padding-top: 6rem;
     padding-bottom: 3rem;
 }
@@ -219,7 +222,6 @@ input[type=checkbox]{
 .testimonials .testimonials-title{
     padding: 2.5rem 0;
     color: #9792e4;
-    font-size: 2rem;
 }
 
 .testimonials .testimonials-subtitle{
