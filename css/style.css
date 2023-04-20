@@ -48,7 +48,7 @@ input[type=checkbox]{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .portrait{
@@ -150,6 +150,7 @@ h2{
 .jumbo-grid .feature-title{
     color: #0084fd;
     padding: 2.5rem 0;
+    font-size: 1.7rem;
 }
 
 .feature-description{
