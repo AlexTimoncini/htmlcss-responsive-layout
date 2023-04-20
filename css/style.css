@@ -149,9 +149,17 @@ input[type=checkbox]{
     color: #fff;
 }
 
+.strategic-planning .wrapper{
+    flex-direction: column;
+}
+
+.wrapper img{
+    align-self: center;
+}
+
 .strategic-planning .planning-title{
     font-size: 2rem;
-    padding-top: 4rem;
+    padding-top: 6rem;
     padding-bottom: 3rem;
 }
 
@@ -163,7 +171,7 @@ input[type=checkbox]{
 
 .strategic-planning img{
     width: 100%;
-    max-width: 300px;
+    max-width: 600px;
 }
 
 .strategic-planning .card{
@@ -251,4 +259,16 @@ input[type=checkbox]{
     .jumbo-grid{
         padding: 3rem 0;
     }
+
+    .strategic-planning .wrapper{
+        width: 50%;
+    }
+
+    .strategic-planning .card{
+        width: 50%;
+        max-width: 400px;
+        align-self: flex-end;
+        margin-left: 4rem;
+    }
+
 }
