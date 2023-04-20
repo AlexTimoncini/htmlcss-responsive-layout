@@ -315,7 +315,10 @@ h2{
     padding: 3rem 2rem;
 }
 
-.about-us article,
+.about-us article{
+    width: 100%;
+}
+
 .about-us aside{
     width: 100%;
 }
@@ -357,6 +360,18 @@ h2{
 
     .features .feature{
         width: calc(50% - 2rem);
+    }
+
+    .about-us .container{
+        column-gap: 4rem;
+    }
+
+    .about-us article{
+        width: calc(70% - 4rem);
+    }
+    
+    .about-us aside{
+        width: 30%;
     }
 }
 
