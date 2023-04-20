@@ -27,6 +27,12 @@ input[type=checkbox]{
     border-radius: 2rem;
 }
 
+.card{
+    padding: 2rem;
+    text-align: center;
+    border-radius: 3rem;
+}
+
 /*--------------LAYOUT STYLE--------------*/
 .flex{
     display: flex;
@@ -176,10 +182,7 @@ input[type=checkbox]{
 
 .strategic-planning .card{
     background-color: #fff;
-    border-radius: 3rem;
     color: black;
-    padding: 2rem;
-    text-align: center;
 }
 
 .strategic-planning .card-title{
@@ -201,6 +204,56 @@ input[type=checkbox]{
     background-color: #9792e4;
     font-size: 1.5rem;
 }
+
+/*TESTIMONIALS SECTION*/
+.testimonials{
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.testimonials .section-name{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.testimonials .testimonials-title{
+    padding: 2.5rem 0;
+    color: #9792e4;
+    font-size: 2rem;
+}
+
+.testimonials .testimonials-subtitle{
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.testimonials .card{
+    color: white;
+    background-color: #9792e4;
+    margin-top: 2rem;
+}
+
+.testimonials .card .quote{
+    line-height: 2rem;
+    font-size: 1.1rem;
+    padding-top: 0.5rem;
+
+}
+
+.testimonials .card .witness-name{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+.testimonials .card img{
+    width: 150px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
 
 /*--------------MEDIA QUERIES--------------*/
 
