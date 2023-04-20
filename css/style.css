@@ -8,7 +8,7 @@ box-sizing: border-box;
 }
 
 body{
-    padding-top: 50px;
+    padding-top: 100px;
     font-family: sans-serif;
 }
 
@@ -16,9 +16,6 @@ input[type=checkbox]{
     display: none;
 }
 
-i{
-    color: #fff;
-}
 /*--------------LAYOUT STYLE--------------*/
 .flex{
     display: flex;
@@ -27,6 +24,16 @@ i{
 .flex.between{
     justify-content: space-between;
 }
+
+.flex.wrap{
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
 /*--------------SITE SECTION--------------*/
 
 /*HEADER*/
@@ -69,7 +76,12 @@ i{
 
 }
 
+.fa-bars{
+    color: #fff;
+}
+
 .nav #burger-menu:checked ~ .nav-links{
     display: flex;
     flex-direction: column;
 }
+
