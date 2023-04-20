@@ -59,6 +59,10 @@ h2{
     object-position: center;
 }
 
+.dot{
+    font-size: 2rem;
+    vertical-align: middle;
+}
 /*--------------LAYOUT STYLE--------------*/
 .flex{
     display: flex;
@@ -348,6 +352,52 @@ h2{
 }
 
 /*GET-STARTED SECTION*/
+.get-started{
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #9792e4;
+    color: #fff;
+}
+
+.get-started .section-name{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.get-started .slogan{
+    font-size: 1.7rem;
+    padding: 1rem 0 2rem;
+}
+
+.get-started .its-free{
+    font-size: 3rem;
+    padding: 1rem 0 2rem;
+    color: #fdc15f;
+}
+
+.get-started .get-started-description{
+    line-height: 2rem;
+}
+
+.get-started .purple-btn{
+    background-color: #fff;
+    color: #9792e4;
+    padding: 1rem 3rem;
+}
+
+.get-started .copyright{
+    font-size: 0.9rem;
+    padding-top: 2rem;
+}
+
+.get-started .copyright a{
+    font-size: 0.9rem;
+    padding-top: 2rem;
+    color: #fff;
+
+}
 
 /*--------------MEDIA QUERIES--------------*/
 
