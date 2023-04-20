@@ -399,6 +399,23 @@ h2{
 
 }
 
+/*FOOTER*/
+.footer{
+    background-color: #333333;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer .footer-description{
+    padding-bottom: 3rem;
+}
+
+.footer a{
+    color: #9792e4;
+}
+
 /*--------------MEDIA QUERIES--------------*/
 
 @media screen and (min-width: 830px) {
