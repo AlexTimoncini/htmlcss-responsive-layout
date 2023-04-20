@@ -27,6 +27,20 @@ input[type=checkbox]{
     border-radius: 2rem;
 }
 
+.purple-btn{
+    border: none;
+    background-color: #9792e4;
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    padding: 0.7rem 3rem;
+    border-radius: 2rem;
+}
+
+
 .card{
     padding: 2rem;
     text-align: center;
@@ -248,7 +262,7 @@ h2{
     padding-top: 2rem;
 }
 
-.testimonials .card img{
+.portrait{
     width: 150px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -294,14 +308,6 @@ h2{
 .feature .feature-description{
     font-weight: 400;
 }
-
-.feature .blue-btn{
-    background-color: #9792e4;
-    font-size: 1rem;
-    margin-top: 2rem;
-    font-weight: bold;
-}
-
 
 /*--------------MEDIA QUERIES--------------*/
 
