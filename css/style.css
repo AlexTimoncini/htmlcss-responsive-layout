@@ -126,7 +126,7 @@ h2{
     padding: 2.5rem 0;
 }
 
-.jumbo-grid .feature-description{
+.feature-description{
     color: #5a6e7f;
     font-weight: bold;
     line-height: 1.7rem;
@@ -256,6 +256,52 @@ h2{
     object-position: center;
 }
 
+/*FEATURES SECTION*/
+.features{
+    background-color: #9792e4;
+    padding: 3rem 2rem;
+}
+
+.features .features-title{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+.features .container{
+    gap: 2rem;
+}
+
+.features .feature{
+    background-color: white;
+    border-radius: 2rem;
+    width: 100%;
+    padding: 3rem 2rem;
+}
+
+.feature .order-number{
+    font-size: 3.5rem;
+    color: #9792e4;
+}
+
+.feature .feature-name{
+    font-size: 1.5rem;
+    color: #9792e4;
+    padding: 2rem 0;
+}
+
+.feature .feature-description{
+    font-weight: 400;
+}
+
+.feature .blue-btn{
+    background-color: #9792e4;
+    font-size: 1rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
 
 /*--------------MEDIA QUERIES--------------*/
 
@@ -267,6 +313,10 @@ h2{
 
     .jumbo-grid .feature.demo{
         width: calc((100% / 3) * 2);
+    }
+
+    .features .feature{
+        width: calc(50% - 2rem);
     }
 }
 
@@ -326,4 +376,7 @@ h2{
         margin-left: 4rem;
     }
 
+    .features .feature{
+        width: calc((100% / 3) - 2rem);
+    }
 }
