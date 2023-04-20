@@ -18,13 +18,19 @@ input[type=checkbox]{
 
 .blue-btn{
     border: none;
-    background-color: #0084fd;
+    background-color: rgb(0, 132, 253);
     color: white;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
     text-align: center;
     padding: 0.7rem 3rem;
     border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.blue-btn:hover{
+    background-color: rgba(0, 132, 253, 0.7);
 }
 
 .purple-btn{
@@ -38,6 +44,12 @@ input[type=checkbox]{
     text-align: center;
     padding: 0.7rem 3rem;
     border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.purple-btn:hover{
+    background-color: rgba(151, 146, 228, 0.8);
 }
 
 .card{
@@ -103,10 +115,12 @@ h2{
     position: absolute;
     top: 100%;
     right: 0;
-    width: 30%;
+    width: 50%;
     background-color: #b5ddff;
     text-align: right;
     display: none;
+    border-left: 1px solid #333333;
+    border-bottom: 1px solid #333333;
 }
 
 .nav-item{
@@ -116,13 +130,20 @@ h2{
     text-decoration: none;
     padding: 0.7rem 1rem;
     font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover{
+    background-color: #8ba7be;
 }
 
 .nav-item[href="#get-started"]{
     color: black;
-    background-color: white;
-    border-bottom: 1px #b5ddff solid;
-    border-left: 1px #b5ddff solid;
+    background-color: #fff;
+}
+
+.nav-item[href="#get-started"]:hover{
+    background-color: #dfdfdf;
 }
 
 .fa-bars{
@@ -162,6 +183,10 @@ h2{
 .jumbo-grid .feature.demo{
     padding: 0 3rem 0;
     text-align: left;
+}
+
+.demo .blue-btn i{
+    margin-right: 10px;
 }
 
 .demo img{
@@ -399,6 +424,11 @@ h2{
     background-color: #fff;
     color: #9792e4;
     padding: 1rem 3rem;
+    transition: all 0.1s ease;
+}
+
+.get-started .purple-btn:hover{
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .get-started .copyright{
@@ -481,6 +511,11 @@ h2{
         width: auto;
         background-color: transparent;
         column-gap: 3rem;
+        border: none;
+    }
+
+    .nav-item:hover{
+        background-color: transparent;
     }
 
     .nav-item{
@@ -489,6 +524,11 @@ h2{
         text-decoration: none;
         padding: 0;
         font-size: 1.2rem;
+        border-bottom: 3px solid transparent;
+    }
+
+    .nav-item:hover{
+        border-color: black;
     }
 
     .nav-item[href="#get-started"]{
