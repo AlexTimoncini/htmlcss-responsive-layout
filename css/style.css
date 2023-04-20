@@ -40,6 +40,10 @@ input[type=checkbox]{
     flex-wrap: wrap;
 }
 
+.flex.center{
+    justify-content: center;
+}
+
 .container{
     width: 100%;
     margin: 0 auto;
@@ -138,7 +142,59 @@ input[type=checkbox]{
     margin: 2rem 0;
 }
 
-/*MEDIA QUERIES*/
+/*STRATEGIC PLANNING SECTION*/
+.strategic-planning{
+    background-color: #9792e4;
+    padding: 3rem 2rem;
+    color: #fff;
+}
+
+.strategic-planning .planning-title{
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.strategic-planning .planning-description{
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+
+}
+
+.strategic-planning img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.strategic-planning .card{
+    background-color: #fff;
+    border-radius: 3rem;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+}
+
+.strategic-planning .card-title{
+    padding: 2rem 0;
+    font-size: 1.6rem;
+}
+
+.strategic-planning .card-description{
+    line-height: 1.8rem;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+
+.strategic-planning .arrow-down{
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #9792e4;
+    font-size: 1.5rem;
+}
+
+/*--------------MEDIA QUERIES--------------*/
 
 @media screen and (min-width: 830px) {
     .jumbo-grid .feature{   
