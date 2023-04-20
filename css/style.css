@@ -1,0 +1,13 @@
+/*--------------GENERAL STYLE--------------*/
+*,
+*::before,
+*::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*--------------LAYOUT STYLE--------------*/
+
+/*--------------SITE SECTION--------------*/
+
