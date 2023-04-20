@@ -51,6 +51,14 @@ h2{
     font-size: 2rem;
 }
 
+.portrait{
+    width: 150px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
 /*--------------LAYOUT STYLE--------------*/
 .flex{
     display: flex;
@@ -262,13 +270,6 @@ h2{
     padding-top: 2rem;
 }
 
-.portrait{
-    width: 150px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 50%;
-    object-position: center;
-}
 
 /*FEATURES SECTION*/
 .features{
@@ -309,6 +310,39 @@ h2{
     font-weight: 400;
 }
 
+/*ABOUT-US SECTION*/
+.about-us{
+    padding: 3rem 2rem;
+}
+
+.about-us article,
+.about-us aside{
+    width: 100%;
+}
+
+.about-us .title{
+    color: #9792e4;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+}
+
+.about-us .information{
+    line-height: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.about-us .quote-about-us{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #9792e4;
+    padding-top: 2rem;
+}
+
+.about-us .purple-btn{
+    letter-spacing: normal;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
 /*--------------MEDIA QUERIES--------------*/
 
 @media screen and (min-width: 830px) {
