@@ -500,6 +500,10 @@ h2{
         padding: 0.5rem 1rem;
     }
 
+    .nav #burger-menu:checked ~ .nav-links{
+        flex-direction: row;
+    }
+    
     .jumbo-grid{
         padding: 3rem 0;
     }
