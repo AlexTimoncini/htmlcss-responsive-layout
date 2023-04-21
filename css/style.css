@@ -257,6 +257,22 @@ h2{
     border-radius: 50%;
     background-color: #9792e4;
     font-size: 1.5rem;
+    border: 3px solid #9792e4;
+
+}
+
+.strategic-planning .arrow-down:hover{
+    animation: spin 1s linear;
+    border: 3px solid #5a6e7f;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(1turn);
+    }
 }
 
 /*TESTIMONIALS SECTION*/
